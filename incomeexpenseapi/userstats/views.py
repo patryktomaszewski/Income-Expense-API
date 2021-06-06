@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 import datetime
-from ..expenses.models import Expense
+from expenses.models import Expense
 from rest_framework import status, response
-from ..income.models import Income
+from income.models import Income
 
 
 class ExpenseSummaryStats(APIView):
